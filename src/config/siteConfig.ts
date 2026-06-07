@@ -299,18 +299,18 @@ export const siteConfig = {
 
   // Gallery Images
   gallery: [
-    { src: '/images/gallery/1.jpg',  span: 'tall' as const },
-    { src: '/images/gallery/2.jpg',  span: 'normal' as const },
-    { src: '/images/gallery/3.jpg',  span: 'wide' as const },
-    { src: '/images/gallery/4.jpg',  span: 'normal' as const },
-    { src: '/images/gallery/5.jpg',  span: 'tall' as const },
-    { src: '/images/gallery/6.jpg',  span: 'normal' as const },
-    { src: '/images/gallery/7.jpg',  span: 'wide' as const },
-    { src: '/images/gallery/8.jpg',  span: 'normal' as const },
-    { src: '/images/gallery/9.jpg',  span: 'normal' as const },
-    { src: '/images/gallery/10.jpg',  span: 'tall' as const },
-    { src: '/images/gallery/11.jpg', span: 'normal' as const },
-    { src: '/images/gallery/12.jpg',  span: 'wide' as const },
+    { src: '/images/gallery/1.jpg', span: 'tall' as const, alt: 'Couple walking together in tall frame' },
+    { src: '/images/gallery/2.jpg', span: 'normal' as const, alt: 'Close-up portrait with soft lighting' },
+    { src: '/images/gallery/3.jpg', span: 'wide' as const, alt: 'Wide landscape shot of the couple' },
+    { src: '/images/gallery/4.jpg', span: 'normal' as const, alt: 'Smiling moment captured during an outing' },
+    { src: '/images/gallery/5.jpg', span: 'tall' as const, alt: 'Romantic pose in a tall city backdrop' },
+    { src: '/images/gallery/6.jpg', span: 'normal' as const, alt: 'Playful laughter shared outdoors' },
+    { src: '/images/gallery/7.jpg', span: 'wide' as const, alt: 'Couple enjoying a scenic wide view' },
+    { src: '/images/gallery/8.jpg', span: 'normal' as const, alt: 'Candid smiles during a cozy moment' },
+    { src: '/images/gallery/9.jpg', span: 'normal' as const, alt: 'Soft sunset glow over the couple' },
+    { src: '/images/gallery/10.jpg', span: 'tall' as const, alt: 'Tall portrait at golden hour' },
+    { src: '/images/gallery/11.jpg', span: 'normal' as const, alt: 'Couple sharing a quiet, happy look' },
+    { src: '/images/gallery/12.jpg', span: 'wide' as const, alt: 'Wide-angle memory from a special day' },
   ],
 
   // Cast & Credits
