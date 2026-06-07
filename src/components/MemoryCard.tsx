@@ -42,7 +42,7 @@ export default function MemoryCard({ memory, index, onSelect }: MemoryCardProps)
               target.parentElement!.style.background = `linear-gradient(${135 + index * 20}deg, hsl(${(index * 40) % 360}, 60%, 20%), hsl(${(index * 40 + 60) % 360}, 40%, 10%))`;
             }}
           />
-          {memory.type === 'video' && (
+          {memory.type as any === 'video' && (
             <div className="absolute top-2 right-2 rounded bg-red-600 px-1.5 py-0.5 text-[10px] font-bold text-white">
               VIDEO
             </div>
