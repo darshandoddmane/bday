@@ -50,7 +50,7 @@ export default function MemoryCard({ memory, index, onSelect }: MemoryCardProps)
         </div>
 
         {/* Progress bar */}
-        {'progress' in memory && typeof memory.progress === 'number' && (
+        {'progress' in memory && typeof memory.progress as any === 'number' && (
           <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-neutral-700">
             <div className="h-full bg-red-600" style={{ width: `${memory.progress}%` }} />
           </div>
