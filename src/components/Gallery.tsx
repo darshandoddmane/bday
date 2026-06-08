@@ -49,7 +49,7 @@ export default function Gallery() {
               >
                 <img
                   src={image.src}
-                  alt={image.alt ??" "}
+                  alt={(image as any).alt ??" "}
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
@@ -62,7 +62,7 @@ export default function Gallery() {
                 </div>
               </div>
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-3 opacity-0 transition-opacity group-hover:opacity-100">
-                <p className="text-xs font-medium text-white">{image.alt ?? " "}</p>
+                <p className="text-xs font-medium text-white">{(image as any).alt ?? " "}</p>
               </div>
             </motion.div>
           ))}
@@ -126,11 +126,11 @@ export default function Gallery() {
             >
               <img
                 src={gallery[selectedImage].src}
-                alt={gallery[selectedImage].alt ?? " "}
+                alt={(gallery[selectedImage] as any).alt ?? " "}
                 className="h-[60vh] w-[80vw] max-w-4xl object-cover"
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                <p className="text-lg font-medium text-white">{gallery[selectedImage].alt}</p>
+                <p className="text-lg font-medium text-white">{(gallery[selectedImage] as any).alt ?? ''}</p>
                 <p className="mt-1 text-sm text-neutral-400">
                   {selectedImage + 1} / {gallery.length}
                 </p>
