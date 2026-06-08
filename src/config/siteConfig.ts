@@ -309,7 +309,7 @@ export const siteConfig = {
     { src: '/images/gallery/8.jpg',  span: 'normal' as const },
     { src: '/images/gallery/9.jpg',  span: 'normal' as const },
     { src: '/images/gallery/10.jpg',  span: 'tall' as const },
-    { src: '/images/gallery/11.jpg',  span: 'normal' as const },
+    
     { src: '/images/gallery/12.jpg',  span: 'wide' as const },
   ],
 
