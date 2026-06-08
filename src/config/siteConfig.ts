@@ -314,7 +314,11 @@ export const siteConfig = {
   ],
 
   // Cast & Credits
-  
+  cast: [
+    { name: 'Nidhi', role: 'Lead Character', image: '/images/cast/1.jpg', description: 'The hopeless romantic with a heart of gold' },
+    { name: 'Darshan', role: 'Lead Character', image: '/images/cast/2.jpg', description: 'The idiot who loves unconditionally' },
+    
+  ],
 
   credits: [
     { role: 'Directed By', name: 'The Universe' },
