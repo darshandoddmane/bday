@@ -67,6 +67,7 @@ export const siteConfig = {
           image: '/images/memories/3.jpg',
           date: '2026-02-10',
           type: 'photo' as const,
+          
           duration: '6h 15m',
           rating: '⭐ 9.8/10',
         },
