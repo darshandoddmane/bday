@@ -57,7 +57,7 @@ export default function MemoryModal({ memory, onClose }: MemoryModalProps) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
 
-              {memory.type === 'video' && (
+              {memory.type as string=== 'video' && (
                 <motion.div
                   className="absolute inset-0 flex items-center justify-center"
                   initial={{ opacity: 0 }}
@@ -83,7 +83,7 @@ export default function MemoryModal({ memory, onClose }: MemoryModalProps) {
                 <span className="text-sm text-neutral-400">{memory.date}</span>
                 <span className="text-sm text-neutral-400">{memory.duration}</span>
                 <span className="rounded border border-neutral-600 px-1.5 py-0.5 text-[10px] text-neutral-400">
-                  {memory.type === 'video' ? 'VIDEO' : 'PHOTO'}
+                  {memory.type as string === 'video' ? 'VIDEO' : 'PHOTO'}
                 </span>
               </div>
 
