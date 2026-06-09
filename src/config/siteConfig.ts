@@ -161,16 +161,7 @@ export const siteConfig = {
           duration: 'Forever',
           rating: '⭐ 10/10',
         },
-         {
-          id: 12,
-          title: 'Reflections on the water',
-          description: 'The lake was calm and endless, yet I found my favorite view beside me.',
-          image: '/images/memories/12.jpg',
-          date: '2026-03-29',
-          type: 'photo' as const,
-          duration: '7 days',
-          rating: '⭐ 10/10',
-        },
+        
         
         
       ],
@@ -309,7 +300,7 @@ export const siteConfig = {
     { src: '/images/gallery/8.jpg',  span: 'normal' as const },
     { src: '/images/gallery/9.jpg',  span: 'normal' as const },
     { src: '/images/gallery/10.jpg',  span: 'tall' as const },
-    { src: '/images/gallery/11.jpg',  span: 'wide' as const },
+    
     { src: '/images/gallery/12.jpg',  span: 'wide' as const },
   ],
 
