@@ -297,7 +297,7 @@ export const siteConfig = {
     { src: '/images/gallery/5.jpg',  span: 'tall' as const },
     { src: '/images/gallery/6.jpg',  span: 'normal' as const },
     { src: '/images/gallery/7.jpg',  span: 'wide' as const },
-    { src: '/images/gallery/8.jpg',  span: 'normal' as const },
+    { src: '/images/gallery/8.jpg',  span: 'tall' as const },
     { src: '/images/gallery/9.jpg',  span: 'normal' as const },
     { src: '/images/gallery/10.jpg',  span: 'tall' as const },
     
